@@ -1,8 +1,17 @@
-html, body {
+
+/**** COLORS ****/
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --lightPink: hsl(321, 100%, 78%);
+    --lightRed: hsl(0, 100%, 63%);
+    --darkCyan: hsl(192, 100%, 9%);
+    --paleBlue: hsl(207, 100%, 98%);
+}
+/**** PAGE ******/
+body {
     padding: 1% 2% 2% 2%;
 }
-.page {
-}
+
 /**** NAVBAR *****/
 .nav-bar {
     display: flex;
@@ -24,17 +33,27 @@ html, body {
     justify-content: center;
 }
 .hero-title {
-    font-size: 40px;
+    font-size: 46px;
 }
 .hero-p {
     width: 420px;
     text-align: center;
+    margin-bottom: 3%;
 }
 .hero-btn {
-    border: solid 1px violet;
-    background-color: violet;
+    border: none;
+    background-color: var(--pink);
     border-radius: 25px;
     color: white;
     height: 60px;
-    width: 250px;
+    width: 310px;
+    margin-bottom: 3%;
 }
+.hero-img {
+    background-image: url(./images/screen-mockups.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 700px;
+}
+/***** FEATURE *****/
