@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 /**** COLORS ****/
 :root {
@@ -11,7 +13,12 @@
 body {
     padding: 1% 2% 2% 2%;
 }
-
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 /**** NAVBAR *****/
 .nav-bar {
     display: flex;
@@ -33,10 +40,11 @@ body {
     justify-content: center;
 }
 .hero-title {
-    font-size: 46px;
+    font-size: 44px;
 }
 .hero-p {
-    width: 420px;
+    width: 450px;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 3%;
 }
