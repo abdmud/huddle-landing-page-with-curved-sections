@@ -74,5 +74,21 @@ p {
     margin-top: 15%;
 }
 .stat-title {
-    font-size: 60px;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.stat-p,
+.stat-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stat-p {
+    color: grey;
+}
+.community,
+.messages {
+    width: 200px;
 }
