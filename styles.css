@@ -92,3 +92,11 @@ p {
 .messages {
     width: 200px;
 }
+/***** STATS *****/
+.illustrations  {
+    width: 200px;
+    height: 200px;
+}
+.feature {
+    display: flex;
+}
