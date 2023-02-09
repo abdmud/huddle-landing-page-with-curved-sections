@@ -126,6 +126,9 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.footer-title {
+    font-size: 25px;
+}
 .grid-2-text {
     width: 400px;
 }
