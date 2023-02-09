@@ -11,7 +11,13 @@
 }
 /**** PAGE ******/
 body {
-    padding: 1% 2% 2% 2%;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar {
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
@@ -121,13 +127,15 @@ p {
 .footer-section {
     background-color: var(--darkCyan);
     color: var(--paleBlue);
-    height: 500px;
+    height: 400px;
+    margin: 0;
 }
 .footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 500px;
+    height: 400px;
+    margin: 0;
 }
 #footer-logo {
     width: 200px;
@@ -146,7 +154,7 @@ p {
     flex-direction: column;
     align-content: center;
     width: 400px;
-    height: 260px;
+    height: 250px;
 }
 .grid-2-text {
     width: 400px;
