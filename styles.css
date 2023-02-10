@@ -101,7 +101,12 @@ p {
 }
 /***** STATS *****/
 .feature {
-    background-color: var(--paleBlue);
+    background-image: url(./images/bg-section-top-desktop-1.svg), url(./images/bg-section-top-desktop-2.svg),
+                        url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 150% 50%;
+    background-position: top left, top right, bottom left, bottom right;
+    height: 500px;
 }
 .illustrations  {
     width: 450px;
