@@ -19,6 +19,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-weight: 400;
 }
 .nav-bar {
     padding-top: 2%;
@@ -85,6 +86,7 @@ p {
     align-content: center;
     justify-content: space-around;
     margin-top: 15%;
+    margin-bottom: 10%;
 }
 .stat-title {
     font-size: 70px;
@@ -107,21 +109,25 @@ p {
 }
 /***** FEATURES *****/
 .feature-section {
-    background-image: url(./images/bg-section-bottom-desktop-2.svg), url(./images/bg-section-top-desktop-1.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% 20%, 100% 20%;
-    background-position: bottom, top;
-    height: 500px;
+    background-image: url(./images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position: bottom;
+    height: 600px;
+}
+.curve-bg-top {
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 150px;
 }
 .illustrations  {
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
 }
 .image-right,
 .image-left {
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
 }
 .image-right {
     background-color: var(--paleBlue);
