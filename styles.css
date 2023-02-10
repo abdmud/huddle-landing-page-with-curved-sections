@@ -105,11 +105,11 @@ p {
 .messages {
     width: 200px;
 }
-/***** STATS *****/
+/***** FEATURES *****/
 .feature-section {
     background-image: url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-top-desktop-1.svg);
     background-repeat: no-repeat, no-repeat;
-    background-size: 100% 50%, 100% 50%;
+    background-size: 100% 20%, 100% 20%;
     background-position: bottom, top;
     height: 500px;
 }
@@ -122,6 +122,7 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
+    background-color: var(--paleBlue);
 }
 .feature-text,
 .feature-img {
@@ -134,7 +135,10 @@ p {
 .cta {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 5%;
+    height: 400px;
 }
 /***** FOOTER *****/
 .footer-section {
