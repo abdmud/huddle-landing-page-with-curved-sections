@@ -183,8 +183,22 @@ p {
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     width: 400px;
-    height: 250px;
+    height: 250px;    
+}
+.grid-2 {
+    margin-top: -3%;
+}
+.phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    height: 30px;
+}
+.footer p {
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .grid-2-text {
     width: 400px;
@@ -194,7 +208,7 @@ p {
     gap: 3%;
 }
 #fname {
-    height: 34px;
+    height: 40px;
     width: 300px;
     border-radius: 5px;
 }
