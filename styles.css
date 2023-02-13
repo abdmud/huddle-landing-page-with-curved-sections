@@ -132,6 +132,9 @@ p {
 .image-right {
     background-color: var(--paleBlue);
 }
+.image-left {
+    margin-bottom: 5%;
+}
 .feature-text,
 .feature-img {
     display: flex;
