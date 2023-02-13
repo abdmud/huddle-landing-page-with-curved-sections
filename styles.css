@@ -248,9 +248,41 @@ p {
         gap: 5%;
     }
     .stat-title {
-        font-size: 60px;
+        font-size: 70px;
     }
     .stat-p {
         margin-bottom: 15%;
+    }
+    .feature-section {
+        background-image: url(./images/bg-section-bottom-mobile-2.svg);
+    }
+    .curve-bg-top {
+        background-image: url(./images/bg-section-top-mobile-2.svg);
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+    .illustrations  {
+        width: 300px;
+        height: 250px;
+    }
+    .image-right,
+    .image-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-left {
+        margin-bottom: 5%;
+    }
+    .feature-p,
+    .feature-title {
+        text-align: center;
+    }
+    .feature-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 450px;
     }
   }
