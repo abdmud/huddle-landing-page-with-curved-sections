@@ -220,3 +220,26 @@ p {
     height: 40px;
     border-radius: 5px;
 }
+/***********************************************************
+********************* MOBILE *******************************
+***********************************************************/
+@media only screen and (max-width: 600px) {
+    body {
+      width: 600px;
+      padding: 0;
+      margin: 0;
+      font-weight: 400;
+    }
+    .hero-title {
+        font-size: 28px;
+    }
+    .hero-title, .hero-p {
+        text-align: center;
+        width: 350px;
+        margin-bottom: 3%;  
+    }
+    .hero-img {
+        width: 400px;
+        height: 300px;
+    }
+  }
