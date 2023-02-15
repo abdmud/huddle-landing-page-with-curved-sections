@@ -287,6 +287,7 @@ p {
     .footer {
         display: flex;
         flex-direction: column-reverse;
+        height: auto;
     }
     .grid-2-actions {
         flex-direction: column;
