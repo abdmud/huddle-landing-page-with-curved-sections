@@ -197,7 +197,7 @@ p {
     display: flex;
     align-items: center;
     gap: 5%;
-    height: 30px;
+    height: auto;
 }
 .footer p {
     margin-top: 2%;
@@ -297,7 +297,14 @@ p {
         align-self: flex-end;
         margin-top: 2%;
     }
+    .leftFooter {
+        display: flex;
+        justify-content: space-between;
+    }
     #fname {
         width: 400px;
+    }
+    .grid-1-logoText {
+        height: auto;
     }
   }
