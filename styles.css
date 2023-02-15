@@ -284,4 +284,19 @@ p {
         justify-content: center;
         align-items: center;
     }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .grid-2-actions {
+        flex-direction: column;
+    }
+    #footer-btn {
+        width: 150px;
+        align-self: flex-end;
+        margin-top: 2%;
+    }
+    #fname {
+        width: 400px;
+    }
   }
